@@ -53,6 +53,23 @@ git push -u --force origin main
 
 Lembre-se que este comando tem que ser utilizado com cuidado pois pode substituir tudo e fazer você perder arquivos.
 
+# Obtendo Alterações do GitHub para o Repositório Local (Pull)
+
+Quando você está trabalhando em um projeto em equipe e outras pessoas contribuem para o mesmo repositório no GitHub, é importante manter seu repositório local atualizado com as alterações mais recentes. Para fazer isso, você pode usar o comando `git pull`, que recupera as alterações do GitHub para o seu repositório local.
+
+## Como Dar Pull:
+
+Antes de executar o comando `git pull`, é importante entender que este comando combina as alterações do GitHub com o seu trabalho local. Se você tiver alterações não enviadas (commits locais não pushados), o Git tentará mesclar automaticamente as alterações do GitHub com as suas alterações locais.
+
+
+# No Terminal, Execute o Seguinte Comando:
 ```bash
-<!Documentação ainda não-finalizada!>
+git pull origin main
 ```
+
+Este comando traz as alterações mais recentes da branch principal do GitHub para o seu repositório local.
+
+**Nota:** Se houver conflitos entre as alterações locais e as do GitHub, o Git pedirá que você resolva esses conflitos manualmente.
+
+Lembre-se de que, antes de dar um novo commit ou push, é sempre uma boa prática verificar se há atualizações usando git pull para garantir que você está trabalhando com a versão mais recente do código.
+
