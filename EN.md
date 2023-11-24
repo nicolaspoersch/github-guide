@@ -48,4 +48,17 @@ Replace <paste the repository link> with the link you copied earlier.
 
 **Note:** If you encounter an error when trying to push, you can try forcing the push using the following command:
 
+# Getting GitHub Changes to Local Repository (Pull)
 
+When working on a team project where others contribute to the same GitHub repository, it's crucial to keep your local repository up-to-date with the latest changes. To achieve this, you can use the `git pull` command, which fetches the changes from GitHub to your local repository.
+
+## How to Pull Changes:
+
+Before executing the `git pull` command, it's important to understand that this command merges the GitHub changes with your local work. If you have unpushed local changes (uncommitted local commits), Git will attempt to automatically merge the GitHub changes with your local changes.
+
+**In the Terminal, Execute the Following Command:**
+```bash
+git pull origin main
+```
+
+This command fetches the latest changes from the main branch on GitHub to your local repository.
