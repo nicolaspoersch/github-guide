@@ -6,7 +6,7 @@
 
 </div>
 
-# Language Selection / Escolha do Idioma
+# Language Selection / Escolha de Idioma
 
 - [English](https://github.com/nicolaspoersch/github-guide/blob/main/EN.md)
 - [Portuguese](https://github.com/nicolaspoersch/github-guide/blob/main/PT-BR.md)
