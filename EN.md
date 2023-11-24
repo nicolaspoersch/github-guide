@@ -48,12 +48,4 @@ Replace <paste the repository link> with the link you copied earlier.
 
 **Note:** If you encounter an error when trying to push, you can try forcing the push using the following command:
 
-```bash
-git push -u --force origin main
-```
 
-Remember that forcing the push can overwrite remote changes, so use it carefully.
-
-```bash
-<!Documentation not yet finalized!>
-```
